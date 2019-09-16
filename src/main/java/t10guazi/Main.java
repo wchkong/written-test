@@ -1,4 +1,4 @@
-package t9guazi;
+package t10guazi;
 
 import java.util.Scanner;
 
