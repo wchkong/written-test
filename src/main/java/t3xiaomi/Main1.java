@@ -1,12 +1,8 @@
 package t3xiaomi;
 
-import t2xiaohongshu.Main3;
-
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+import java.util.Comparator;
+import java.util.PriorityQueue;
+import java.util.Scanner;
 
 public class Main1 {
 
