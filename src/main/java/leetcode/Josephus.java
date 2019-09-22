@@ -22,6 +22,8 @@ import java.util.Scanner;
  *
  * 输出
  * 最终能够活下来的人的下标
+ *
+ * 參考：https://www.jianshu.com/p/b76d49462a46
  */
 public class Josephus {
 
