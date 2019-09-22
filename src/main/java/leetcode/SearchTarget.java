@@ -1,8 +1,16 @@
-package other;
+package leetcode;
 
 import java.io.File;
 import java.util.Scanner;
 
+/**
+ * 在矩阵中找目标数
+ * 矩阵符合
+ * 行 小->大
+ * 列 小->大
+ *
+ *  输入目标数，求其是否在矩阵中
+ */
 public class SearchTarget {
 
     public static void main(String[] args) {

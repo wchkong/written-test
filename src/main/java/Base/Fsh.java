@@ -1,6 +1,7 @@
 package Base;
 
 import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 
 /**
  * java反射demo
@@ -21,6 +22,7 @@ public class Fsh {
             o.pro = "a3";
 
             Field[] fields = test.getDeclaredFields();
+            Method[] declaredMethods = test.getDeclaredMethods();
             Test test2 = new Test();
             for (int i = 0; i < fields.length; i++) {
                 Field field = fields[i];
@@ -36,11 +38,7 @@ public class Fsh {
         } catch (InstantiationException e) {
             e.printStackTrace();
         }
-
-
     }
-
-
 }
 
 
