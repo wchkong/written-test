@@ -23,8 +23,16 @@ public class DFS7 {
 
     public static void main(String[] args) {
 
-        dfs(4);
+        long l = System.currentTimeMillis();
+        //dfs(10);
+        long l1 = System.currentTimeMillis();
+        int count = getCount(1000);
+        long l2 = System.currentTimeMillis();
+
+        //System.out.println(DFS7.count);
         System.out.println(count);
+        System.out.println(l1 - l);
+        System.out.println(l2 - l1);
     }
 
     static void dfs(int N) {
@@ -75,5 +83,17 @@ public class DFS7 {
         }
     }
 
-
+    static int getCount(int N) {
+        int[] array = new int[N];
+        for (int i = 0; i < N; i++) {
+            if (i == 0) {
+                array[i] = 1;
+            } else if (i == 1) {
+                array[i] = 2;
+            } else {
+                array[i] = array[i - 1] + array[i - 2];
+            }
+        }
+        return array[N -1 ];
+    }
 }
