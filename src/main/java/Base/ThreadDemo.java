@@ -78,6 +78,7 @@ class CommonSource {
     // 从缓冲区获取数据
     public synchronized int get() {
         int result;
+        // 防止虛假喚醒，需要while判斷狀態
         while (count <= 0) {
             try{
                 wait();
