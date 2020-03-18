@@ -56,7 +56,7 @@ public class Test {
     public static long getProduct(long M, long N) {
 
         if (N == 0) {
-            return 0;
+            return 1;
         }
         if (N == 1) {
             return M;
