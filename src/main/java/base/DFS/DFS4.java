@@ -1,4 +1,4 @@
-package Base.DFS;
+package base.DFS;
 
 /**
  * https://blog.csdn.net/MaxLykoS/article/details/73555329

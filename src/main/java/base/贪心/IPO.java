@@ -1,4 +1,4 @@
-package Base.贪心;
+package base.贪心;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;

@@ -1,4 +1,4 @@
-package Base.DFS;
+package base.DFS;
 
 import java.util.Stack;
 

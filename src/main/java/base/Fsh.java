@@ -1,4 +1,4 @@
-package Base;
+package base;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -11,8 +11,8 @@ public class Fsh {
     public static void main(String[] args) {
 
         try {
-            Class<?> test = Class.forName("Base.Test");
-            Class<?> test1 = ClassLoader.getSystemClassLoader().loadClass("Base.Test");
+            Class<?> test = Class.forName("base.Test");
+            Class<?> test1 = ClassLoader.getSystemClassLoader().loadClass("base.Test");
 
             System.out.println(test.equals(test1));
 

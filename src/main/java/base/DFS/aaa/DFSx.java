@@ -1,4 +1,4 @@
-package Base.DFS.aaa;
+package base.DFS.aaa;
 
 import java.util.Scanner;
 

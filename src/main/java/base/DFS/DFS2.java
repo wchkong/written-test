@@ -1,4 +1,4 @@
-package Base.DFS;
+package base.DFS;
 
 /**
  * 寻找满足ABC+DEF=GHI的情况有多少

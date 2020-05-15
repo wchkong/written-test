@@ -1,4 +1,4 @@
-package Base.producer_and_consumer;
+package base.producer_and_consumer;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
